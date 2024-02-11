@@ -3,12 +3,21 @@
 ## Introduction
 This repository provides the implementation of discriminative E3Outlier, an effective and end-to-end method for the unsupervised outlier detection (UOD) task. UOD aims to directly detect outliers from a contaminated unlabeled dataset in a transductive manner, without using any labeled data (e.g. a labeled training set with pure normal data/inliers).
 
+## Environments
+
++ NVIDIA Tesla K80: https://www.matpool.com/
++ Python 3.6, CUDA 9.0, cuDNN 7.6.4, Pytorch 0.4.1, NVCC, Ubuntu 16.04
+
 ## Requirements 
 - Python 3.6
 - PyTorch 0.4.1 (GPU)
 - Keras 2.2.0 
 - Tensorflow 1.8.0 (GPU)
 - sklearn 0.19.1
+
+```python
+pip install -r requirements.txt
+```
  
 
 ## Usage
