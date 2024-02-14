@@ -6,6 +6,7 @@ This repository provides the implementation of discriminative E3Outlier, an effe
 ## Environments
 
 + NVIDIA Tesla K80: https://www.matpool.com/
++ 2080Ti
 + Python 3.6, CUDA 9.0, cuDNN 7.6.4, Pytorch 0.4.1, NVCC, Ubuntu 16.04
 
 ## Requirements 
@@ -16,6 +17,13 @@ This repository provides the implementation of discriminative E3Outlier, an effe
 - sklearn 0.19.1
 
 ```python
+conda create -n e3o python=3.6
+source activate e3o
+
+conda install cudatoolkit=9.0 -c pytorch
+conda install cudnn=7.6.4 -c pytorch
+
+conda install pytorch=0.4.1 cuda90 -c pytorch
 pip install -r requirements.txt
 ```
  
